@@ -27,7 +27,7 @@ In “Elephant Fractial Competition”
 本人在进行数据集扩充进行数据增强的部分时，需要将自己在网上爬下来的图片转换成tfrecords文件，以便读入自己的模型用于模型的预训练，就顺便学习了一下该如何制作tfrecords文件，本该是后面的内容，就放在tfrecords文件这一块讲了。这里以一个例子进行说明：[How to create a deep learning dataset using Google Images](https://www.pyimagesearch.com/2017/12/04/how-to-create-a-deep-learning-dataset-using-google-images/)，同时这也是一篇非常棒的tutorial。  
 首先按照教程的操作，也可以直接看我本人整理好的[Notebook代码](https://github.com/Huixxi/Image-Classification-using-Flowers-dataset/blob/master/bin/create_a_deep-learning_dataset_using_google-images.ipynb)，将Google Image上的相关图片Download到本地。  
 接下来准备将下载好的全部图片进行标记并转化成tfrecords文件：  
-本人的Notebook代码：
+本人的Notebook代码：  
 [Source Code: Write_into_TFRecords_files](https://github.com/Huixxi/Image-Classification-using-Flowers-dataset/blob/master/bin/write_into_tfrecords_files.ipynb)   
 参考的教程链接(Vely Good!)：  
 [How to write into and read from a TFRecords file in TensorFlow](http://www.machinelearninguru.com/deep_learning/tensorflow/basics/tfrecord/tfrecord.html)    
