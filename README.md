@@ -33,7 +33,7 @@ In “Elephant Fractial Competition”
 [How to write into and read from a TFRecords file in TensorFlow](http://www.machinelearninguru.com/deep_learning/tensorflow/basics/tfrecord/tfrecord.html)    
 
 ## Neural network architecture and Models
-终于到神经网络模型的部分了。因为做计算机视觉图像相关，而且又是图像分类这种很基础的方向，卷积神经网络-CNN一定是首选；对于如此小的数据集来说，要想达到一个不错的分类准确率，自然也避不开使用Pre-Trained Models和Transfer Learning。从2012年以来涌现的那么多神经网络模型，如Xception, VGG16, VGG19, ResNet50, InceptionV3, InceptionResNetV2, MobileNet等，我们该如何进行选择。这篇[Tutorial：Using Keras Pre-trained Deep Learning models for your own dataset]https://gogul09.github.io/software/flower-recognition-deep-learning)给了我很大的启发。最终我在本次竞赛中使用的是[MobileNets](https://arxiv.org/pdf/1704.04861.pdf)，因为和其他模型比起来，它的参数真的是太少了，并且也十分强大。  
+终于到神经网络模型的部分了。因为做计算机视觉图像相关，而且又是图像分类这种很基础的方向，卷积神经网络-CNN一定是首选；对于如此小的数据集来说，要想达到一个不错的分类准确率，自然也避不开使用Pre-Trained Models和Transfer Learning。从2012年以来涌现的那么多神经网络模型，如Xception, VGG16, VGG19, ResNet50, InceptionV3, InceptionResNetV2, MobileNet等，我们该如何进行选择。这篇[Tutorial：Using Keras Pre-trained Deep Learning models for your own dataset](https://gogul09.github.io/software/flower-recognition-deep-learning)给了我很大的启发。最终我在本次竞赛中使用的是[MobileNets](https://arxiv.org/pdf/1704.04861.pdf)，因为和其他模型比起来，它的参数真的是太少了，并且也十分强大。  
 对于如何使用Pre_trained Models，我参考了如下教程(Still Vely Good!):  
 [1.MobileNet image Classification with Keras](https://www.youtube.com/watch?v=OO4HD-1wRN8&list=PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL&index=31)  
 [2.Build image classifier using transfer learning - Fine-tuning MobileNet with Keras 1](https://www.youtube.com/watch?v=4Tcqw5oIfIg&list=PLZbbT5o_s2xrwRnXk_yCPtnqqo4_u2YGL&index=32)  
