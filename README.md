@@ -1,5 +1,5 @@
 # Image-Classification-using-Flowers-dataset Competition
-In “Elephant Fractial Competition”
+In “Panorama AI Competition”
 
 这是本人作为小白第一次参加类似的竞赛，总结的这近一个月的时间内踩过的坑，走过的弯路和积累的一些有用的Tricks，分享给和我一样的新手小白们。
 【所有参考的Blogs, Tutorials等都给出了明确的出处，有部分资料需要翻墙访问】  
