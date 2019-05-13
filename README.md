@@ -54,6 +54,3 @@ In “Panorama AI Competition”
 
 ## Other Tricks(Including how to denoise grayscale image)
 其他的一些Tricks整理在这个[NoteBook文件](https://github.com/Huixxi/Image-Classification-using-Flowers-dataset/blob/master/bin/utils_in_pretrained_model.ipynb)  
-
-
-做了很多工作，无奈准确率还是令人心碎，最后希望大家能在此次竞赛中，学的开心，玩的开心，踩坑踩得也开心(给你个生无可恋的眼神儿自己体会)。
